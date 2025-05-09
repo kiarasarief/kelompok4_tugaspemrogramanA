@@ -1,7 +1,6 @@
-
 #ifndef INTERPOLATION_H
 #define INTERPOLATION_H
 
-double lagrange_interpolation(double x[], double y[], int n, double x_pred);
+double lagrange_interpolation(int years[], double data[], int n, int year_pred);
 
 #endif
